@@ -1,3 +1,4 @@
+import { MatCardModule } from '@angular/material/card';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AppComponent } from './app.component';
@@ -15,6 +16,7 @@ import { NgModule } from '@angular/core';
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase, 'weather-app'),
     AngularFirestoreModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
