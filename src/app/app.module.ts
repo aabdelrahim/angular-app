@@ -1,9 +1,9 @@
+import { environment } from './../environments/environment.prod';
 import { MatCardModule } from '@angular/material/card';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
-import { environment } from './../environments/environment';
 import { MaterializeModule } from 'angular2-materialize';
 import { NgModule } from '@angular/core';
 
